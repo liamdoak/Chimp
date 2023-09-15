@@ -10,12 +10,17 @@ This program requires SDL to compile, and uses the Visual Studio compiler cl. Cr
 
 # Using
 To run the CHIP-8 emulator on a ROM file, run the command:\
+
 `chimp <rom-file>`\
+
 To enter debug mode, run the command:\
+
 `chimp <rom-file> d-`\
 
 To enter S-CHIP/CHIP-48 mode, run the command:\
+
 `chimp <rom-file> -s`\
 
 To enter both debug and S-CHIP mode, run the command:\
+
 `chimp <rom-file> ds`\
