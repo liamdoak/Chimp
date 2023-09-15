@@ -9,18 +9,18 @@ Fetch-Decode-Execute cycle. This program also mimics the hardware like registers
 This program requires SDL to compile, and uses the Visual Studio compiler cl. Create a lib directory to add SDL to and create an include directory to add SDL's headers to, then compile using make.
 
 # Using
-To run the CHIP-8 emulator on a ROM file, run the command:\
+To run the CHIP-8 emulator on a ROM file, run the command:
 
-`chimp <rom-file>`\
+`chimp <rom-file>`
 
-To enter debug mode, run the command:\
+To enter debug mode, run the command:
 
-`chimp <rom-file> d-`\
+`chimp <rom-file> d-`
 
-To enter S-CHIP/CHIP-48 mode, run the command:\
+To enter S-CHIP/CHIP-48 mode, run the command:
 
-`chimp <rom-file> -s`\
+`chimp <rom-file> -s`
 
-To enter both debug and S-CHIP mode, run the command:\
+To enter both debug and S-CHIP mode, run the command:
 
-`chimp <rom-file> ds`\
+`chimp <rom-file> ds`
